@@ -44,10 +44,8 @@ class ResultViewController: UIViewController {
     
     func shareOnFacebook() {
         let content = FBSDKShareLinkContent()
-        content.contentURL = NSURL(string: "https://www.facebook.com")
+        content.contentURL = NSURL(string: "https://github.com/nguyentruongky/TimeLearner")
         content.contentTitle = "I got \(score) at TimeLearner. Try it yourself!"
-//        content.contentDescription = self.contentDescription
-//        content.imageURL = NSURL(string: self.contentURLImage)
         FBSDKShareDialog.showFromViewController(self, withContent: content, delegate: nil)
     }
 }

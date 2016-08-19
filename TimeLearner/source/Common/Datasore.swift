@@ -11,7 +11,7 @@ import Alamofire
 
 struct Datastore {
     static func getDataFromService(completed: (questions: [Question]) -> Void) {
-        let url = "http://time-learner.vinagility.vn/get-questions.json"
+        let url = "service_url"
         Alamofire.request(.GET, url, parameters: nil)
             .responseJSON { response in
 //                if let data = response.result.value {
@@ -21,9 +21,8 @@ struct Datastore {
     }
     
     static func getDataFromLocal(completed: (questions: [Question]) -> Void) {
-        let path = "/Users/kynguyen/Documents/Personal/Dev Center/TimeLearner/TimeLearner/time.json"
-        
-        let jsonData = NSData(contentsOfURL: NSURL(fileURLWithPath: path))
+        let path = NSBundle.mainBundle().pathForResource("time", ofType: "json")
+        let jsonData = NSData(contentsOfURL: NSURL(fileURLWithPath: path!))
         guard jsonData != nil else { return }
         
         do {

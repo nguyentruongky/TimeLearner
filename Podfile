@@ -5,8 +5,6 @@
 
 target 'TimeLearner' do
     pod 'Alamofire', '~> 3.4'
-    pod 'Bolts'
-    pod 'FBSDKLoginKit'
     pod 'FBSDKCoreKit'
     pod 'FBSDKShareKit'
 end
