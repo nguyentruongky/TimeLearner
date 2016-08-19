@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267A42721D65FDAA00CCF3D4 /* TimeLearner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267A42711D65FDAA00CCF3D4 /* TimeLearner.storyboard */; };
+		267A42741D65FE2800CCF3D4 /* SplashscreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42731D65FE2800CCF3D4 /* SplashscreenViewController.swift */; };
+		267A42771D65FEBE00CCF3D4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42761D65FEBE00CCF3D4 /* Question.swift */; };
+		267A42831D660AC900CCF3D4 /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42821D660AC900CCF3D4 /* AnalogClockView.swift */; };
+		267A42851D661C2A00CCF3D4 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42841D661C2A00CCF3D4 /* QuestionViewController.swift */; };
+		267A42891D66716300CCF3D4 /* time.json in Resources */ = {isa = PBXBuildFile; fileRef = 267A42881D66716300CCF3D4 /* time.json */; };
+		267A428B1D6681B800CCF3D4 /* QuestionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A428A1D6681B800CCF3D4 /* QuestionPresenter.swift */; };
+		267A428D1D66823E00CCF3D4 /* QuestionDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A428C1D66823E00CCF3D4 /* QuestionDatastore.swift */; };
+		267A42901D66A48A00CCF3D4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A428F1D66A48A00CCF3D4 /* UIViewExtension.swift */; };
+		267A42921D66A80E00CCF3D4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42911D66A80E00CCF3D4 /* ResultViewController.swift */; };
+		267A42941D66B15400CCF3D4 /* Datasore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42931D66B15400CCF3D4 /* Datasore.swift */; };
+		267A42961D66B26F00CCF3D4 /* ResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42951D66B26F00CCF3D4 /* ResultPresenter.swift */; };
+		26B575001D65835200C5E691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B574FF1D65835200C5E691 /* AppDelegate.swift */; };
+		26B575071D65835200C5E691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B575061D65835200C5E691 /* Assets.xcassets */; };
+		26B5750A1D65835200C5E691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B575081D65835200C5E691 /* LaunchScreen.storyboard */; };
+		B5F05DE856D8E44258D74427 /* Pods_TimeLearner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4895D4754A920BEC4289F942 /* Pods_TimeLearner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		267A42711D65FDAA00CCF3D4 /* TimeLearner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TimeLearner.storyboard; sourceTree = "<group>"; };
+		267A42731D65FE2800CCF3D4 /* SplashscreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashscreenViewController.swift; sourceTree = "<group>"; };
+		267A42761D65FEBE00CCF3D4 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		267A42821D660AC900CCF3D4 /* AnalogClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
+		267A42841D661C2A00CCF3D4 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		267A42881D66716300CCF3D4 /* time.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = time.json; path = "/Users/kynguyen/Documents/Personal/Dev Center/TimeLearner/TimeLearner/time.json"; sourceTree = "<absolute>"; };
+		267A428A1D6681B800CCF3D4 /* QuestionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionPresenter.swift; sourceTree = "<group>"; };
+		267A428C1D66823E00CCF3D4 /* QuestionDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDatastore.swift; sourceTree = "<group>"; };
+		267A428F1D66A48A00CCF3D4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		267A42911D66A80E00CCF3D4 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		267A42931D66B15400CCF3D4 /* Datasore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasore.swift; sourceTree = "<group>"; };
+		267A42951D66B26F00CCF3D4 /* ResultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultPresenter.swift; sourceTree = "<group>"; };
+		26B574FC1D65835200C5E691 /* TimeLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B574FF1D65835200C5E691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26B575061D65835200C5E691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B575091D65835200C5E691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26B5750B1D65835200C5E691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1D693ED713C4E836C6B6C5 /* Pods-TimeLearner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLearner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeLearner/Pods-TimeLearner.debug.xcconfig"; sourceTree = "<group>"; };
+		4895D4754A920BEC4289F942 /* Pods_TimeLearner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeLearner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB19BCB98A3D66BF6E8D25EE /* Pods-TimeLearner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLearner.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeLearner/Pods-TimeLearner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B574F91D65835200C5E691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F05DE856D8E44258D74427 /* Pods_TimeLearner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D2F90132CC4C46AEDD7213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C1D693ED713C4E836C6B6C5 /* Pods-TimeLearner.debug.xcconfig */,
+				BB19BCB98A3D66BF6E8D25EE /* Pods-TimeLearner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		267A426D1D65FD9800CCF3D4 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				267A42711D65FDAA00CCF3D4 /* TimeLearner.storyboard */,
+				267A427A1D6603B600CCF3D4 /* AnalogClock */,
+				267A428E1D66A47400CCF3D4 /* Common */,
+				267A42751D65FEB300CCF3D4 /* Model */,
+				267A426E1D65FD9800CCF3D4 /* Question */,
+				267A426F1D65FD9800CCF3D4 /* Result */,
+				267A42701D65FD9800CCF3D4 /* Splashscreen */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		267A426E1D65FD9800CCF3D4 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				267A42841D661C2A00CCF3D4 /* QuestionViewController.swift */,
+				267A428A1D6681B800CCF3D4 /* QuestionPresenter.swift */,
+				267A428C1D66823E00CCF3D4 /* QuestionDatastore.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		267A426F1D65FD9800CCF3D4 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				267A42911D66A80E00CCF3D4 /* ResultViewController.swift */,
+				267A42951D66B26F00CCF3D4 /* ResultPresenter.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		267A42701D65FD9800CCF3D4 /* Splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				267A42731D65FE2800CCF3D4 /* SplashscreenViewController.swift */,
+			);
+			path = Splashscreen;
+			sourceTree = "<group>";
+		};
+		267A42751D65FEB300CCF3D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				267A42761D65FEBE00CCF3D4 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		267A427A1D6603B600CCF3D4 /* AnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				267A42821D660AC900CCF3D4 /* AnalogClockView.swift */,
+			);
+			path = AnalogClock;
+			sourceTree = "<group>";
+		};
+		267A428E1D66A47400CCF3D4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				267A428F1D66A48A00CCF3D4 /* UIViewExtension.swift */,
+				267A42931D66B15400CCF3D4 /* Datasore.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		26B574F31D65835200C5E691 = {
+			isa = PBXGroup;
+			children = (
+				26B574FE1D65835200C5E691 /* TimeLearner */,
+				26B574FD1D65835200C5E691 /* Products */,
+				20D2F90132CC4C46AEDD7213 /* Pods */,
+				32D64894710338CAF767B790 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26B574FD1D65835200C5E691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B574FC1D65835200C5E691 /* TimeLearner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B574FE1D65835200C5E691 /* TimeLearner */ = {
+			isa = PBXGroup;
+			children = (
+				267A426D1D65FD9800CCF3D4 /* source */,
+				26B574FF1D65835200C5E691 /* AppDelegate.swift */,
+				26B575061D65835200C5E691 /* Assets.xcassets */,
+				267A42881D66716300CCF3D4 /* time.json */,
+				26B575081D65835200C5E691 /* LaunchScreen.storyboard */,
+				26B5750B1D65835200C5E691 /* Info.plist */,
+			);
+			path = TimeLearner;
+			sourceTree = "<group>";
+		};
+		32D64894710338CAF767B790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4895D4754A920BEC4289F942 /* Pods_TimeLearner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26B574FB1D65835200C5E691 /* TimeLearner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B5750E1D65835200C5E691 /* Build configuration list for PBXNativeTarget "TimeLearner" */;
+			buildPhases = (
+				F25B2C0769FDE330D2CA1A31 /* Check Pods Manifest.lock */,
+				26B574F81D65835200C5E691 /* Sources */,
+				26B574F91D65835200C5E691 /* Frameworks */,
+				26B574FA1D65835200C5E691 /* Resources */,
+				8EC5446280BA20EBF7CAA7C7 /* Embed Pods Frameworks */,
+				D92F3D941F9C40400BB188E2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeLearner;
+			productName = TimeLearner;
+			productReference = 26B574FC1D65835200C5E691 /* TimeLearner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26B574F41D65835200C5E691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = phuot;
+				TargetAttributes = {
+					26B574FB1D65835200C5E691 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 26B574F71D65835200C5E691 /* Build configuration list for PBXProject "TimeLearner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26B574F31D65835200C5E691;
+			productRefGroup = 26B574FD1D65835200C5E691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26B574FB1D65835200C5E691 /* TimeLearner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B574FA1D65835200C5E691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267A42891D66716300CCF3D4 /* time.json in Resources */,
+				267A42721D65FDAA00CCF3D4 /* TimeLearner.storyboard in Resources */,
+				26B5750A1D65835200C5E691 /* LaunchScreen.storyboard in Resources */,
+				26B575071D65835200C5E691 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EC5446280BA20EBF7CAA7C7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeLearner/Pods-TimeLearner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D92F3D941F9C40400BB188E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeLearner/Pods-TimeLearner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F25B2C0769FDE330D2CA1A31 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B574F81D65835200C5E691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267A428D1D66823E00CCF3D4 /* QuestionDatastore.swift in Sources */,
+				267A42771D65FEBE00CCF3D4 /* Question.swift in Sources */,
+				267A42851D661C2A00CCF3D4 /* QuestionViewController.swift in Sources */,
+				267A42831D660AC900CCF3D4 /* AnalogClockView.swift in Sources */,
+				267A42741D65FE2800CCF3D4 /* SplashscreenViewController.swift in Sources */,
+				267A428B1D6681B800CCF3D4 /* QuestionPresenter.swift in Sources */,
+				267A42941D66B15400CCF3D4 /* Datasore.swift in Sources */,
+				267A42901D66A48A00CCF3D4 /* UIViewExtension.swift in Sources */,
+				26B575001D65835200C5E691 /* AppDelegate.swift in Sources */,
+				267A42961D66B26F00CCF3D4 /* ResultPresenter.swift in Sources */,
+				267A42921D66A80E00CCF3D4 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26B575081D65835200C5E691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B575091D65835200C5E691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26B5750C1D65835200C5E691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26B5750D1D65835200C5E691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B5750F1D65835200C5E691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1D693ED713C4E836C6B6C5 /* Pods-TimeLearner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeLearner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phuot.TimeLearner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26B575101D65835200C5E691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB19BCB98A3D66BF6E8D25EE /* Pods-TimeLearner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeLearner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phuot.TimeLearner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B574F71D65835200C5E691 /* Build configuration list for PBXProject "TimeLearner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B5750C1D65835200C5E691 /* Debug */,
+				26B5750D1D65835200C5E691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B5750E1D65835200C5E691 /* Build configuration list for PBXNativeTarget "TimeLearner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B5750F1D65835200C5E691 /* Debug */,
+				26B575101D65835200C5E691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26B574F41D65835200C5E691 /* Project object */;
+}
