@@ -1,7 +1,7 @@
 # TimeLearner
-A simple game to teach children learn how to read analog clock. 
+A simple game to teach children learn how to read analog clock.
 
-![]http://i.imgur.com/f5zt3hJ.gifv)
+![](https://github.com/nguyentruongky/TimeLearner/blob/master/timeLearner.gif)
 
 ### What I did
 - Get the question on server. The server is down. Sample data is loaded from local. 
