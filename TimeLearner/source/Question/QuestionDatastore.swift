@@ -11,6 +11,4 @@ import Foundation
 struct QuestionDatastore {
     
     var questions : [Question]!
-    
-    
 }

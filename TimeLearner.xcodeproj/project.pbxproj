@@ -17,7 +17,7 @@
 		267A428D1D66823E00CCF3D4 /* QuestionDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A428C1D66823E00CCF3D4 /* QuestionDatastore.swift */; };
 		267A42901D66A48A00CCF3D4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A428F1D66A48A00CCF3D4 /* UIViewExtension.swift */; };
 		267A42921D66A80E00CCF3D4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42911D66A80E00CCF3D4 /* ResultViewController.swift */; };
-		267A42941D66B15400CCF3D4 /* Datasore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42931D66B15400CCF3D4 /* Datasore.swift */; };
+		267A42941D66B15400CCF3D4 /* Datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42931D66B15400CCF3D4 /* Datastore.swift */; };
 		267A42961D66B26F00CCF3D4 /* ResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42951D66B26F00CCF3D4 /* ResultPresenter.swift */; };
 		26B575001D65835200C5E691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B574FF1D65835200C5E691 /* AppDelegate.swift */; };
 		26B575071D65835200C5E691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B575061D65835200C5E691 /* Assets.xcassets */; };
@@ -36,7 +36,7 @@
 		267A428C1D66823E00CCF3D4 /* QuestionDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDatastore.swift; sourceTree = "<group>"; };
 		267A428F1D66A48A00CCF3D4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		267A42911D66A80E00CCF3D4 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		267A42931D66B15400CCF3D4 /* Datasore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasore.swift; sourceTree = "<group>"; };
+		267A42931D66B15400CCF3D4 /* Datastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datastore.swift; sourceTree = "<group>"; };
 		267A42951D66B26F00CCF3D4 /* ResultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultPresenter.swift; sourceTree = "<group>"; };
 		26B574FC1D65835200C5E691 /* TimeLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B574FF1D65835200C5E691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				267A428F1D66A48A00CCF3D4 /* UIViewExtension.swift */,
-				267A42931D66B15400CCF3D4 /* Datasore.swift */,
+				267A42931D66B15400CCF3D4 /* Datastore.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 				267A42831D660AC900CCF3D4 /* AnalogClockView.swift in Sources */,
 				267A42741D65FE2800CCF3D4 /* SplashscreenViewController.swift in Sources */,
 				267A428B1D6681B800CCF3D4 /* QuestionPresenter.swift in Sources */,
-				267A42941D66B15400CCF3D4 /* Datasore.swift in Sources */,
+				267A42941D66B15400CCF3D4 /* Datastore.swift in Sources */,
 				267A42901D66A48A00CCF3D4 /* UIViewExtension.swift in Sources */,
 				26B575001D65835200C5E691 /* AppDelegate.swift in Sources */,
 				267A42961D66B26F00CCF3D4 /* ResultPresenter.swift in Sources */,

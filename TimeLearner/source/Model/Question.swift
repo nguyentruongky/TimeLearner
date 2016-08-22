@@ -17,4 +17,12 @@ struct Question {
         timeToDisplay = data.valueForKeyPath("time_to_display") as! String
         options = data.valueForKeyPath("options") as! [String]
     }
+    
+    init(displayTime: String, answers: [String]) {
+        timeToDisplay = displayTime
+        options = answers
+    }
+    
+    
+    
 }

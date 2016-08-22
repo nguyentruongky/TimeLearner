@@ -19,7 +19,7 @@ struct QuestionPresenter {
         dataStore = QuestionDatastore(questions: questions)
     }
     
-    func showQuestionAtIndex(index: Int, updateClock: (date: NSDate) -> Void, updateOptions: (options: [String]) -> Void) {
+    mutating func showQuestionAtIndex(index: Int, updateClock: (date: NSDate) -> Void, updateOptions: (options: [String]) -> Void) {
         guard index >= 0 && index <= 10 else { return }
         let question = dataStore.questions[index]
         let string = formatDateString(question.timeToDisplay)
@@ -70,7 +70,6 @@ struct QuestionPresenter {
     
     private func didFinishedQuiz(currentQuestion: Int, totalQuestions: Int) -> Bool {
         return currentQuestion == totalQuestions - 1
-//        return currentQuestion == 4
     }
     
     private mutating func answerCorrect(action: Void -> Void) {
