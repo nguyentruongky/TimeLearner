@@ -11,19 +11,16 @@ import Alamofire
 
 class SplashscreenViewController: UIViewController {
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-//        getDataFromService()
-        Datastore.getDataFromLocal { (questions) in
-            let controller = UIStoryboard(name: "TimeLearner", bundle: nil).instantiateViewControllerWithIdentifier("QuestionViewController") as! QuestionViewController
-            controller.presenter.setDatastore(questions)
-            self.presentViewController(controller, animated: true, completion: nil)
-        }
+
+        let controller = UIStoryboard(name: "TimeLearner", bundle: nil).instantiateViewControllerWithIdentifier("QuestionViewController") as! QuestionViewController
+        controller.presenter.setDatastore(Datastore.generateRandomQuestions(10))
+        presentViewController(controller, animated: true, completion: nil)
     }
 }
 

@@ -24,7 +24,8 @@ struct ResultPresenter {
     }
     
     func getData(completed: (questions: [Question]) -> Void) {
-        Datastore.getDataFromLocal(completed)
+        let questions = Datastore.generateRandomQuestions(10)
+        completed(questions: questions)
     }
     
     
