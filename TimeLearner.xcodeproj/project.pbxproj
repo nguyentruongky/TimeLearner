@@ -12,7 +12,6 @@
 		267A42771D65FEBE00CCF3D4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42761D65FEBE00CCF3D4 /* Question.swift */; };
 		267A42831D660AC900CCF3D4 /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42821D660AC900CCF3D4 /* AnalogClockView.swift */; };
 		267A42851D661C2A00CCF3D4 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A42841D661C2A00CCF3D4 /* QuestionViewController.swift */; };
-		267A42891D66716300CCF3D4 /* time.json in Resources */ = {isa = PBXBuildFile; fileRef = 267A42881D66716300CCF3D4 /* time.json */; };
 		267A428B1D6681B800CCF3D4 /* QuestionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A428A1D6681B800CCF3D4 /* QuestionPresenter.swift */; };
 		267A428D1D66823E00CCF3D4 /* QuestionDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A428C1D66823E00CCF3D4 /* QuestionDatastore.swift */; };
 		267A42901D66A48A00CCF3D4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A428F1D66A48A00CCF3D4 /* UIViewExtension.swift */; };
@@ -31,7 +30,6 @@
 		267A42761D65FEBE00CCF3D4 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		267A42821D660AC900CCF3D4 /* AnalogClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
 		267A42841D661C2A00CCF3D4 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
-		267A42881D66716300CCF3D4 /* time.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = time.json; path = "/Users/kynguyen/Documents/Personal/Dev Center/TimeLearner/TimeLearner/time.json"; sourceTree = "<absolute>"; };
 		267A428A1D6681B800CCF3D4 /* QuestionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionPresenter.swift; sourceTree = "<group>"; };
 		267A428C1D66823E00CCF3D4 /* QuestionDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDatastore.swift; sourceTree = "<group>"; };
 		267A428F1D66A48A00CCF3D4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 				267A426D1D65FD9800CCF3D4 /* source */,
 				26B574FF1D65835200C5E691 /* AppDelegate.swift */,
 				26B575061D65835200C5E691 /* Assets.xcassets */,
-				267A42881D66716300CCF3D4 /* time.json */,
 				26B575081D65835200C5E691 /* LaunchScreen.storyboard */,
 				26B5750B1D65835200C5E691 /* Info.plist */,
 			);
@@ -235,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267A42891D66716300CCF3D4 /* time.json in Resources */,
 				267A42721D65FDAA00CCF3D4 /* TimeLearner.storyboard in Resources */,
 				26B5750A1D65835200C5E691 /* LaunchScreen.storyboard in Resources */,
 				26B575071D65835200C5E691 /* Assets.xcassets in Resources */,
